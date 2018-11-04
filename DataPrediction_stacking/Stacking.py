@@ -14,7 +14,7 @@ def Stacking_Count (SumRange):
 
     # Устанавливаем соединение с базой
     connection = pyodbc.connect('Driver={SQL Server};'
-                                'Server=BI2;'
+                                'Server=*******;'
                                 'Database=BI_Analytics;'
                                 'Trusted_Connection=yes')
 
